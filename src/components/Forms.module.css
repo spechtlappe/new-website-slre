@@ -1,0 +1,68 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form > :global(.btn) {
+  align-self: flex-start;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.goals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border: 0;
+}
+
+.goals legend {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.submitRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.note {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 32px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--bordeaux);
+  border-radius: var(--radius);
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .row,
+  .row3 {
+    grid-template-columns: 1fr;
+  }
+}

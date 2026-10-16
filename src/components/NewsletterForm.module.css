@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  gap: 8px;
+  max-width: 340px;
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgb(255 255 255 / 0.3);
+  background: transparent;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.input::placeholder {
+  color: rgb(255 255 255 / 0.55);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--white);
+}
+
+.done {
+  color: var(--white);
+}

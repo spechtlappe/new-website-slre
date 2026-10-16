@@ -1,26 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { MobileActionBar } from "@/components/MobileActionBar";
+import { cormorant, playfair, sans } from "./fonts";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "SLRE — Nuovo sito",
-  description: "Nuovo sito web SLRE, in costruzione.",
+  title: {
+    default: "Specht & Lappe Real Estate · We bring you home",
+    template: "%s · Specht & Lappe Real Estate",
+  },
+  description:
+    "Da oltre trent’anni accompagniamo chi vende e chi acquista casa tra il Lago Maggiore e il Lago di Lugano. Muralto, Ascona, Morcote.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="it" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>{children}</body>
+    <html lang="it" className={`${playfair.variable} ${cormorant.variable} ${sans.variable}`}>
+      <body>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+        <MobileActionBar />
+      </body>
     </html>
   );
 }

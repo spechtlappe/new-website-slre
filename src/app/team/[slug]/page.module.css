@@ -1,0 +1,104 @@
+.back {
+  display: inline-block;
+  margin-bottom: 28px;
+  font-size: 14px;
+  color: var(--bordeaux);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 420px) 1fr;
+  gap: clamp(32px, 6vw, 88px);
+  align-items: start;
+}
+
+.photo {
+  position: sticky;
+  top: calc(var(--header-h) + 24px);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.role {
+  font-size: 18px;
+}
+
+.quals {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+}
+
+.langs li {
+  padding: 4px 12px;
+  border: 1px solid var(--rose);
+  border-radius: 999px;
+  font-size: 12px;
+  color: var(--bordeaux);
+}
+
+.bio {
+  margin-top: 8px;
+  max-width: 62ch;
+  color: var(--muted);
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: start;
+  gap: 16px 48px;
+  margin-top: 8px;
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.contacts dt {
+  font-family: var(--font-eyebrow), serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contacts dd {
+  font-size: 15px;
+}
+
+.contacts a:hover {
+  color: var(--bordeaux);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .photo {
+    position: static;
+    max-width: 360px;
+  }
+
+  .contacts {
+    grid-template-columns: 1fr;
+  }
+}

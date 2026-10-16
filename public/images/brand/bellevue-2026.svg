@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 104.9 198.1" style="enable-background:new 0 0 104.9 198.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CD1719;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'TradeGothicLTStd-Bold';}
+	.st3{font-size:9.7483px;}
+	.st4{fill:none;}
+	.st5{font-family:'Crimson-Semibold';}
+	.st6{font-size:24px;}
+	.st7{font-size:15px;}
+	.st8{font-family:'Crimson-Roman';}
+	.st9{font-size:13px;}
+	.st10{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st11{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+</style>
+<g id="Ebene_1_1_">
+	<polygon class="st0" points="0,0 0,198.1 52.6,165 104.9,198.1 104.9,0 	"/>
+	<text transform="matrix(0.85 0 0 1 50.582 138.3356)" class="st1 st2 st3"> </text>
+	<text transform="matrix(0.85 0 0 1 52.9492 138.3356)" class="st1 st2 st3"> </text>
+	<g>
+		<path class="st1" d="M67.8,146.4"/>
+	</g>
+</g>
+<g id="Ebene_2_1_">
+	<rect x="30.4" y="136.6" class="st4" width="45.7" height="21.2"/>
+	<text transform="matrix(1 0 0 1 30.3934 152.8574)" class="st1 st5 st6">2026</text>
+	<rect x="8.4" y="104.9" class="st4" width="86.8" height="28.5"/>
+	<text transform="matrix(1 0 0 1 11.3614 115.102)" class="st1 st5 st7">Best Property </text>
+	<text transform="matrix(1 0 0 1 31.5114 129.102)" class="st1 st5 st7">Agents</text>
+	<text transform="matrix(1 0 0 1 1.3299 87.3027)" class="st1 st8 st9"> </text>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="11.9" y="20.3" width="80.7" height="75.2"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<path class="st10" d="M92.6,95.3v-2.5h-5V89h3.7v-2.5h-3.7v-3.3h4.8v-2.5h-7.6v14.6H92.6z M72.6,80.7v10.2c0,3.2,1.9,4.6,4.7,4.6
+				c2.9,0,4.8-1.3,4.8-4.6V80.7h-2.8v10.2c0,1.4-0.6,2.1-2,2.1c-1.3,0-2-0.7-2-2.1V80.7H72.6z M64,95.3h3.2l3.7-14.6h-2.7l-2.5,10.4
+				h0L63,80.7h-2.7L64,95.3z M59,95.3v-2.5h-5V89h3.7v-2.5h-3.7v-3.3h4.8v-2.5h-7.6v14.6H59z M49.5,95.3v-2.5H45V80.7h-2.8v14.6
+				H49.5z M40.5,95.3v-2.5H36V80.7h-2.8v14.6H40.5z M31,95.3v-2.5h-5V89h3.7v-2.5h-3.7v-3.3h4.8v-2.5h-7.6v14.6H31z M14.7,83h1.1
+				c1.3,0,1.9,0.7,1.9,1.8c0,1-0.8,1.7-2.1,1.7h-1V83z M14.7,88.8h1c1.5,0,2.4,0.7,2.4,2.1c0,1.3-0.8,2.1-2.2,2.1h-1.2V88.8z
+				 M11.9,95.3H16c3,0,4.9-1.3,4.9-4.2c0-1.8-0.6-2.6-2.1-3.6c1.2-0.7,1.8-1.8,1.8-3c0-2.5-1.7-3.8-4.7-3.8h-3.9
+				C11.9,80.7,11.9,95.3,11.9,95.3z"/>
+		</g>
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="11.9" y="20.3" width="80.7" height="75.2"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<path class="st11" d="M72.4,40.5L52.3,20.3L32.1,40.5v27.4h12.8c3.5,0,3.7-0.5,3.7-3.2V49.2h-5v-4.6l2-0.4c3.4-0.8,6.2-3.1,7.6-6
+				h3.8v26.5c0,2.7,0.3,3.2,3.7,3.2h11.9V40.5z"/>
+		</g>
+	</g>
+</g>
+</svg>
