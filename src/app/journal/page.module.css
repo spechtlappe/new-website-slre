@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cover {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 24px 40px -28px rgb(0 0 0 / 0.5);
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cover {
+  transform: translateY(-4px);
+}
+
+.sub {
+  font-size: 14px;
+  color: var(--bordeaux);
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

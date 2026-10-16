@@ -32,11 +32,11 @@ export default function ContattoPage() {
           <div className={styles.advisor}>
             <span className={styles.advisorImg}>
               <Image
-                src="/images/campagna/brochure-microlino.jpg"
+                src="/images/team/stefan-steiger.jpg"
                 alt=""
                 fill
                 sizes="64px"
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", objectPosition: "center 20%" }}
               />
             </span>
             <span>

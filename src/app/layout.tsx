@@ -6,6 +6,7 @@ import { cormorant, playfair, sans } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://slre.ch"),
   title: {
     default: "Specht & Lappe Real Estate · We bring you home",
     template: "%s · Specht & Lappe Real Estate",

@@ -71,11 +71,16 @@ textarea {
   width: 100%;
   max-width: calc(var(--container) + var(--gutter) * 2);
   margin: 0 auto;
-  padding: 0 var(--gutter);
+  padding-inline: var(--gutter);
 }
 
 .section {
   padding: var(--section) 0;
+}
+
+/* Prima sezione delle pagine interne: meno aria sotto l'header. */
+main > .section:first-child {
+  padding-top: clamp(40px, 5vw, 72px);
 }
 
 .section--beige {

@@ -268,6 +268,7 @@ export default async function Home() {
             width={120}
             height={180}
             className={styles.bellevueLogo}
+            style={{ height: "auto" }}
           />
         </div>
       </section>
@@ -342,7 +343,7 @@ function Hero({
           <picture>
             <source media="(max-width: 767px)" srcSet={mobileSrcSet} />
             <source media="(min-width: 768px)" srcSet={desktopSrcSet} />
-            {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+            {/* eslint-disable-next-line jsx-a11y/alt-text -- alt arriva da getImageProps */}
             <img {...rest} className={styles.heroImg} />
           </picture>
           {highlight && (

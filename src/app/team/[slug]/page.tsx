@@ -45,7 +45,9 @@ async function MemberDetail({ params }: Pick<PageProps<"/team/[slug]">, "params"
           ← Torna al team
         </Link>
         <div className={styles.layout}>
-          <Avatar member={member} sizes="(max-width: 767px) 100vw, 420px" className={styles.photo} />
+          <div className={styles.photo}>
+            <Avatar member={member} sizes="(max-width: 767px) 100vw, 420px" />
+          </div>
 
           <div className={styles.text}>
             <span className="eyebrow">Il nostro team{office ? ` · ${office.name}` : ""}</span>
