@@ -1,0 +1,36 @@
+.avatar {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #5a5a5a;
+}
+
+.avatar[data-shape="portrait"] {
+  aspect-ratio: 3 / 4;
+  border-radius: 2px;
+}
+
+.avatar[data-shape="round"] {
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+.initials {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: var(--beige);
+  color: var(--bordeaux);
+  font-family: var(--font-display), serif;
+  font-size: clamp(20px, 3vw, 40px);
+}
+
+.avatar[data-shape="round"] .initials {
+  font-size: 16px;
+}

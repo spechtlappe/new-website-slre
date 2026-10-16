@@ -1,0 +1,91 @@
+.card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 18px 40px -24px rgb(60 30 30 / 0.35);
+  transform: translateY(-2px);
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--beige);
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.03);
+}
+
+.badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--white);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 22px 22px 20px;
+  flex: 1;
+}
+
+.body :global(.eyebrow) {
+  font-size: 11px;
+}
+
+.title {
+  font-family: var(--font-display), serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.town {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.price {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--bordeaux);
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  list-style: none;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  color: var(--muted);
+}

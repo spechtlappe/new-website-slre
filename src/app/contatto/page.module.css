@@ -1,0 +1,111 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: clamp(32px, 6vw, 96px);
+  align-items: start;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main > :global(.lead) {
+  margin-bottom: 16px;
+}
+
+.fallback {
+  min-height: 560px;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: calc(var(--header-h) + 24px);
+}
+
+.advisor {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: var(--bordeaux);
+  color: var(--white);
+  border-radius: var(--radius);
+}
+
+.advisorImg {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.advisorTitle {
+  display: block;
+  font-family: var(--font-display), serif;
+  font-size: 20px;
+}
+
+.advisorText {
+  display: block;
+  font-size: 13px;
+  color: rgb(255 255 255 / 0.8);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 14px;
+}
+
+.offices {
+  list-style: none;
+}
+
+.offices li {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.offices li:last-child {
+  border-bottom: 0;
+}
+
+.officeName {
+  font-family: var(--font-display), serif;
+  font-size: 18px;
+  color: var(--ink);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.direct {
+  margin-top: 6px;
+  color: var(--bordeaux);
+}
+
+@media (max-width: 1000px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .aside {
+    position: static;
+  }
+}

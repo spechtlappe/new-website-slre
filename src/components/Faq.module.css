@@ -1,0 +1,56 @@
+.list {
+  border-top: 1px solid var(--line);
+}
+
+.item {
+  border-bottom: 1px solid var(--line);
+}
+
+.q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 0;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  list-style: none;
+}
+
+.q::-webkit-details-marker {
+  display: none;
+}
+
+.icon {
+  position: relative;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+}
+
+.icon::before,
+.icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 1.5px;
+  background: var(--bordeaux);
+  transition: transform 0.25s ease;
+}
+
+.icon::after {
+  transform: rotate(90deg);
+}
+
+.item[open] .icon::after {
+  transform: rotate(0deg);
+}
+
+.a {
+  padding: 0 40px 24px 0;
+  color: var(--muted);
+  max-width: 62ch;
+}
